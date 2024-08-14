@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
      "build": "rm -rf node_modules && npm install",
-      "postinstall": "npm rebuild bcrypt",
+       "postinstall": "npm rebuild bcrypt --fallback-to-build",
     "start": "node server.js"
   },
   "author": "",
